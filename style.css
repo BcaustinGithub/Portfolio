@@ -1,0 +1,221 @@
+nav {
+  background-color: rgb(21, 21, 21);
+  height: 4em;
+  position: fixed;
+  width: 100%;
+  scroll-margin-top: 2em;
+
+  box-shadow: 0px 10px 8px -6px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(43, 43, 43);
+}
+
+.navtext {
+  padding: 0;
+  color: rgb(243, 243, 243);
+  font-size: 2em;
+  margin-left: 1.9em;
+  margin-top: -47px;
+}
+
+.imagediv {
+  width: 100%;
+  height: 400px;
+  background-image: url(https://www.buckhorninn.com/wp-content/uploads/2018/05/newfound-gap.jpeg);
+  background-position-y: 60%;
+  background-position-x: 85%;
+  background-size: cover;
+  box-shadow: 0px 12px 8px -6px rgba(0, 0, 0, 0.5);
+  overflow-y: hidden;
+}
+
+.myname {
+  color: rgb(243, 243, 243);
+  font-size: 5em;
+  text-align: center;
+  margin-top: 160px;
+  text-shadow: 0px 4px 2px rgba(50, 36, 36, 0.5);
+}
+.mynameminitxt {
+  color: rgb(243, 243, 243);
+  font-size: 1.5em;
+  text-align: center;
+  text-shadow: 0px 4px 2px rgba(50, 36, 36, 0.6);
+  margin-top: -2em;
+}
+
+.pagecontent h2 {
+  color: rgb(1, 1, 1);
+  padding: 1em;
+  font-size: 1.75em;
+  margin-left: 1em;
+}
+
+.pagecontent {
+  overflow-y: hidden;
+  background-color: white;
+}
+
+.bodytext {
+  padding: 1em;
+  font-size: 1.5em;
+  border: 0px 3px 3px rgb(0, 0, 0);
+  border-left: 1px solid grey;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.skillstext {
+  padding: 1em;
+  font-size: 1.5em;
+  padding-right: 21em;
+}
+
+ion-icon {
+  font-size: 2em;
+  color: rgb(243, 243, 243);
+  margin-top: 13px;
+  margin-left: 12px;
+  font-weight: 900;
+}
+
+.logoimages1 {
+  align-items: center;
+  height: 15%;
+  width: 15%;
+}
+.logoimages2 {
+  align-items: center;
+  height: 9%;
+  width: 9%;
+  margin-bottom: 10px;
+  margin-left: -15px;
+}
+.logoimages3 {
+  align-items: center;
+  height: 7%;
+  width: 7%;
+  margin-left: 20px;
+}
+.logoimages4 {
+  align-items: center;
+  height: 8%;
+  width: 8%;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+.logoimages5 {
+  align-items: center;
+  height: 7%;
+  width: 7%;
+  margin-left: 25px;
+  margin-bottom: 6px;
+}
+.logoimages6 {
+  align-items: center;
+  height: 7%;
+  width: 7%;
+  margin-left: 25px;
+  margin-bottom: -6px;
+}
+.logoimages7 {
+  align-items: center;
+  height: 11%;
+  width: 11%;
+  margin-left: 30px;
+  margin-bottom: -9px;
+}
+.logoimages8 {
+  align-items: center;
+  height: 9%;
+  width: 9%;
+  margin-left: 30px;
+  margin-bottom: -8px;
+}
+.logoimages9 {
+  align-items: center;
+  height: 7%;
+  width: 7%;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  padding-left: -10px;
+}
+footer {
+  background-color: rgb(21, 21, 21);
+  color: rgb(243, 243, 243);
+  height: 4em;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+.projecticon {
+  width: 20%;
+  height: auto;
+  margin-left: 2.5em;
+  text-align: center;
+  box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 15px;
+  border: 3px solid rgb(43, 43, 43);
+}
+
+.projectcontainer {
+  display: flex;
+}
+
+.projectcontainer p {
+  padding: 5px;
+}
+
+.projectcontainer img {
+  width: 100%;
+  height: 15em;
+  border-radius: 12px;
+}
+.dropbtn {
+  color: white;
+  padding: 8px;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #393939;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(43, 43, 43);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(43, 43, 43);
+}
