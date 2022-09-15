@@ -338,3 +338,79 @@ a {
 }
 
 /*media for tablets*/
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .projecticon {
+    width: 30%;
+    height: auto;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    text-align: center;
+    box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 3px solid rgb(43, 43, 43);
+  }
+
+  .projectcontainer p {
+    padding: 1px;
+    font-size: 0.75em;
+  }
+
+  .projectcontainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .projectcontainer {
+    display: flex;
+    margin-left: 0;
+  }
+  .logoimages1 {
+    height: auto;
+    width: 23%;
+  }
+  .logoimages2 {
+    height: auto;
+    width: 12%;
+  }
+  .logoimages3 {
+    height: auto;
+    width: 11%;
+  }
+  .logoimages4 {
+    height: auto;
+    width: 12%;
+  }
+  .logoimages5 {
+    height: auto;
+    width: 10.45%;
+  }
+  .logoimages6 {
+    height: auto;
+    width: 9%;
+    padding-top: 1em;
+  }
+  .logoimages7 {
+    height: auto;
+    width: 14%;
+    padding-top: 1em;
+  }
+  .logoimages8 {
+    height: auto;
+    width: 11%;
+    padding-top: 1em;
+  }
+  .logoimages9 {
+    height: auto;
+    width: 10.45%;
+  }
+
+  .logocontainer {
+    align-items: center;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
