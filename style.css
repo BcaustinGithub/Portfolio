@@ -7,6 +7,12 @@ nav {
 
   box-shadow: 0px 10px 8px -6px rgba(0, 0, 0, 0.5);
 }
+#aboutmeeducation,
+#skills,
+#projects,
+#contactme {
+  scroll-margin-top: 2em;
+}
 
 body {
   margin: 0;
@@ -145,6 +151,7 @@ ion-icon {
   margin-bottom: 5px;
   padding-left: -10px;
 }
+
 footer {
   background-color: rgb(21, 21, 21);
   color: rgb(243, 243, 243);
@@ -154,21 +161,81 @@ footer {
 a {
   color: rgb(0, 0, 0);
 }
-
 .projecticon {
-  width: 20%;
-  height: auto;
+  text-decoration: none;
+  font-weight: 700;
+}
+.language1 {
+  background-image: url("./images/pythonlogo.jpg");
+  width: 15em;
+  height: 20em;
   margin-left: 2.5em;
   text-align: center;
   box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   font-weight: 500;
   border-radius: 15px;
-  border: 3px solid rgb(43, 43, 43);
+  border: 4px solid rgb(43, 43, 43);
+  background-size: 60%;
+  background-size: contain;
+}
+.language2 {
+  background-image: url("./images/pythonlogo.jpg");
+  width: 15em;
+  height: 20em;
+  margin-left: 2.5em;
+  text-align: center;
+  box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 15px;
+  border: 4px solid rgb(43, 43, 43);
+  background-size: 60%;
+  background-size: contain;
+}
+.language3 {
+  background-image: url("https://th.bing.com/th/id/OIP.KSWpfK9qCJS9sVb8Ete5MQHaE8?pid=ImgDet&rs=1");
+  width: 15em;
+  height: 20em;
+  margin-left: 2.5em;
+  text-align: center;
+  box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 15px;
+  border: 4px solid rgb(43, 43, 43);
+  background-size: 60%;
+  background-size: contain;
+}
+.language4 {
+  background-image: url("https://th.bing.com/th/id/OIP.KSWpfK9qCJS9sVb8Ete5MQHaE8?pid=ImgDet&rs=1");
+  width: 15em;
+  height: 20em;
+  margin-left: 2.5em;
+  text-align: center;
+  box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 15px;
+  border: 4px solid rgb(43, 43, 43);
+  background-size: 60%;
+  background-size: contain;
 }
 
+.projecttxt {
+  margin-top: 110%;
+  background-color: rgb(43, 43, 43);
+  height: 15%;
+  width: 97%;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 1em;
+  color: white;
+  text-shadow: 3px 8px 8px rgba(0, 0, 0, 0.5);
+}
 .projectcontainer {
   display: flex;
+  justify-content: center;
 }
 
 .projectcontainer p {
@@ -219,7 +286,7 @@ a {
 .dropdown:hover .dropbtn {
   background-color: rgb(43, 43, 43);
 }
-/*media for galaxy fold*/
+
 /*media for phones*/
 @media screen and (max-width: 480px) {
   .imagediv {
@@ -268,31 +335,105 @@ a {
     margin-right: 2em;
   }
   .projecticon {
-    width: 30%;
-    height: auto;
-    margin-left: 0.75em;
-    margin-right: 0.75em;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .language1 {
+    background-image: url("./images/pythonlogo.jpg");
+    width: 5em;
+    height: 5em;
+    margin-left: 2.5em;
     text-align: center;
     box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
     text-decoration: none;
     font-weight: 500;
     border-radius: 15px;
-    border: 3px solid rgb(43, 43, 43);
+    border: 4px solid rgb(43, 43, 43);
+    background-size: 60%;
+    background-size: contain;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 1em;
+  }
+  .language2 {
+    background-image: url("./images/pythonlogo.jpg");
+    width: 5em;
+    height: 5em;
+    margin-left: 2.5em;
+    text-align: center;
+    box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 4px solid rgb(43, 43, 43);
+    background-size: 60%;
+    background-size: contain;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 1em;
+  }
+  .language3 {
+    background-image: url("https://th.bing.com/th/id/OIP.KSWpfK9qCJS9sVb8Ete5MQHaE8?pid=ImgDet&rs=1");
+    width: 5em;
+    height: 5em;
+    margin-left: 2.5em;
+    text-align: center;
+    box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 4px solid rgb(43, 43, 43);
+    background-size: 60%;
+    background-size: contain;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 1em;
+  }
+  .language4 {
+    background-image: url("https://th.bing.com/th/id/OIP.KSWpfK9qCJS9sVb8Ete5MQHaE8?pid=ImgDet&rs=1");
+    width: 5em;
+    height: 5em;
+    margin-left: 2.5em;
+    text-align: center;
+    box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 4px solid rgb(43, 43, 43);
+    background-size: 60%;
+    background-size: contain;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 1em;
+  }
+
+  .projecttxt {
+    margin-top: 30%;
+    margin-left: -7%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 15%;
+    width: 125%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 1em;
+    color: white;
+    text-shadow: 3px 8px 8px rgba(0, 0, 0, 0.5);
+  }
+  .projectcontainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
 
   .projectcontainer p {
-    padding: 1px;
-    font-size: 0.75em;
+    padding: 2px;
   }
 
   .projectcontainer img {
     width: 100%;
-    height: auto;
-    border-radius: 6px;
-  }
-  .projectcontainer {
-    display: flex;
-    margin-left: 0;
+    height: 15em;
+    border-radius: 12px;
   }
   .logoimages1 {
     height: auto;
@@ -340,31 +481,106 @@ a {
 /*media for tablets*/
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .projecticon {
-    width: 30%;
-    height: auto;
-    margin-left: 0.75em;
-    margin-right: 0.75em;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .language1 {
+    background-image: url("./images/pythonlogo.jpg");
+    width: 15em;
+    height: 15em;
+    margin-left: 2.5em;
     text-align: center;
     box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
     text-decoration: none;
     font-weight: 500;
     border-radius: 15px;
-    border: 3px solid rgb(43, 43, 43);
+    border: 4px solid rgb(43, 43, 43);
+    background-size: 60%;
+    background-size: contain;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 1em;
+  }
+  .language2 {
+    background-image: url("./images/pythonlogo.jpg");
+    width: 15em;
+    height: 15em;
+    margin-left: 2.5em;
+    text-align: center;
+    box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 4px solid rgb(43, 43, 43);
+    background-size: 60%;
+    background-size: contain;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 1em;
+  }
+  .language3 {
+    background-image: url("https://th.bing.com/th/id/OIP.KSWpfK9qCJS9sVb8Ete5MQHaE8?pid=ImgDet&rs=1");
+    width: 15em;
+    height: 15em;
+    margin-left: 2.5em;
+    text-align: center;
+    box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 4px solid rgb(43, 43, 43);
+    background-size: 60%;
+    background-size: contain;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 1em;
+  }
+  .language4 {
+    background-image: url("https://th.bing.com/th/id/OIP.KSWpfK9qCJS9sVb8Ete5MQHaE8?pid=ImgDet&rs=1");
+    width: 15em;
+    height: 15em;
+    margin-left: 2.5em;
+    text-align: center;
+    box-shadow: 3px 12px 8px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 4px solid rgb(43, 43, 43);
+    background-size: 60%;
+    background-size: contain;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 1em;
+  }
+
+  .projecttxt {
+    margin-top: 40%;
+    margin-left: -10%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 15%;
+    width: 125%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 1em;
+    color: white;
+    text-shadow: 3px 8px 8px rgba(0, 0, 0, 0.5);
+  }
+  .projectcontainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2em;
   }
 
   .projectcontainer p {
-    padding: 1px;
-    font-size: 0.75em;
+    padding: 2px;
   }
 
   .projectcontainer img {
     width: 100%;
-    height: auto;
-    border-radius: 6px;
-  }
-  .projectcontainer {
-    display: flex;
-    margin-left: 0;
+    height: 15em;
+    border-radius: 12px;
   }
   .logoimages1 {
     height: auto;
